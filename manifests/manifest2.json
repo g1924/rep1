@@ -1,0 +1,119 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://g1924.github.io/rep1/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Tree near King's Cross, September 2023",
+  "metadata" : [ {
+    "label" : "Photographer",
+    "value" : "Gabrielle Migdalska"
+  }, {
+    "label" : "Date taken",
+    "value" : "2023"
+  } ],
+  "description" : [ {
+    "@value" : "This is a collection of photographs taken by Gabi",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+  "attribution" : "Copyright Gabrielle Migdalska but released as Creative Commons",
+  "sequences" : [ {
+    "@id" : "http://01ca22d0-fc7f-492d-9d95-022198816ef0",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://34fd0b64-ea07-49af-a76f-6ce79c1836fb",
+      "@type" : "sc:Canvas",
+      "label" : "London",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e1fb6b42-a52b-45b3-b38d-173467e67e28",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/london_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/london_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://34fd0b64-ea07-49af-a76f-6ce79c1836fb"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://46841a82-8a7f-4e18-a998-8e445b0789da",
+      "@type" : "sc:Canvas",
+      "label" : "Edinburgh",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ecbdc781-4755-4ac6-85d2-0e8f83548e5a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/winter_20240320/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/winter_20240320",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://46841a82-8a7f-4e18-a998-8e445b0789da"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://fc9ce238-c0db-440d-9ce3-e0a7989a4486",
+      "@type" : "sc:Canvas",
+      "label" : "Level 0 image",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://38320b58-3232-4737-bf2b-16ea41f476ee",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://g1924.github.io/rep1/images/winter/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://g1924.github.io/rep1/images/winter",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://fc9ce238-c0db-440d-9ce3-e0a7989a4486"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://1a883ab9-9f2a-460d-af0b-dfbeaf96901b" ]
+  } ]
+}
